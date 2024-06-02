@@ -14,8 +14,8 @@ body {
   --secondary-text-color: #5c5c62;
   --durability-text-color: #6a737d9c;
   --icon-color: #6a737d;
-  --border-color: #ff9a0045;
-  --text-decoration-color: #ff9a00;
+  --border-color: #cfa41745;
+  --text-decoration-color: #b48c15;
 }
 
 .container {
@@ -71,14 +71,14 @@ body {
 
 /* Contact info styles */
 
-.contact-info__header,
+/* .contact-info__header,
 .contact-info__sub-header {
   text-align: center;
-}
+} */
 
 .contact-info__header {
   color: var(--primary-text-color);
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   text-decoration-color: var(--text-decoration-color);
   text-decoration-line: underline;
 }
@@ -127,8 +127,8 @@ body {
 
 .contact-info__avatar {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border: 3px solid;
   border-color: var(--text-decoration-color);
@@ -206,17 +206,15 @@ body {
   margin-bottom: 25px;
 }
 
+.experiences__company-project p {
+  color: var(--secondary-text-color);
+}
+
 .experiences__company-project-role {
   color: var(--durability-text-color);
   text-align: left;
   margin-bottom: 10px;
   font-size: 15px;
-}
-
-.experiences__company-project-name {
-  color: var(--primary-text-color);
-  text-align: left;
-  margin-bottom: 10px;
 }
 
 .experiences__company-project-responsibilities {
